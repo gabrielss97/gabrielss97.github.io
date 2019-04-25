@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: rgb(222, 235, 224);
+}
+
+/*MASTER CLASSES*/
+
+.logo-color {
+  background: #577e65;
+}
+
+/*CREATE CLASSES*/
+
+.inicio-top {
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px 0;
+}
+
+.titles {
+  margin-left: 15px;
+  color: rgb(119, 119, 119);
+  font-size: 150%
+}
+
+.more-details {
+  margin: -10px 12px;
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.more-details2 {
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 110%;  
+}
+
+.blackboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackboard img{
+  width: 80px;
+  margin: 10px;
+}
+
+.blackboard a {
+  display: block;
+  color: orangered;
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.menu-desktop li{
+  margin: 30px
+}
+
+.pendent-work {
+  margin: 3% 0;
+}
+
+.next-pay {
+  margin: 3% 0;
+}
+
+/*CUSTOM CLASSES*/
+
+.nav-wrapper img{
+  width: 45px;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.card .card-content {
+  padding: 10px;
+  font-size: 120%
+}
+
+.card .card-title {
+  font-size: 150%;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.card .card-content .card-title {
+  margin-bottom: 0px;
+}
+
+.section p {
+  display: flex;
+  align-items: center;
+}

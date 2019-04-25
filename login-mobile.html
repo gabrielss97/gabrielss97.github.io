@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!--Google Icon Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/login-mobile.css">
+    <!--Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-wrapper">
+      <div class="login-box">
+        <div class="login-logo">
+          <img src="img/laureate-brand.png">
+        </div>
+
+        <div class="login-form">
+          <form action="home-mobile.html">
+            <div class="form-field">
+              <label for="login-username">MATRÍCULA</label>
+              <div class="field-composition">
+                <input disabled type="text" value="ALU" class="pre-input">
+                <input type="text" id="login-username" class="pro-input">
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="login-username">SENHA</label>
+              <input type="password" id="login-username">
+            </div>
+            <div class="form-field direction-row">
+              <label for="login-keep-online">Manter conectado</label>
+              <input type="checkbox" id="login-keep-online" class="checkbox-input">
+            </div>
+            <div class="form-field">
+              <input type="submit" value="ACESSAR" class="submit-button">
+            </div>
+            <div class="form-field">
+              <a href="">Esqueci minha senha!</a>
+            </div>
+            <div class="form-field">
+              <div class="horizontal-separator"></div>
+            </div>
+            <div class="form-field align-center">
+              <label for="login-questions" class="questions-label">Dúvidas para acessar?</label>
+              <input type="checkbox" id="login-questions">
+              <div class="questions-content">
+                <p>O login deve ter o seguinte formato:</p>
+                <p>Utilizar o número de matrícula sem os zeros a esquerda, com a mesma senha utilizada para acesso ao Portal anterior</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/login-mobile.js"></script>
+</body>
+
+</html>
